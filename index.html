@@ -12,7 +12,7 @@
         //debouncing, throtlling
         const a = document.getElementById("firstNumber").value;
         const b = document.getElementById("secondNumber").value;
-        //axios
+        //axios can also be used to make this code and fatch the code
         fetch ("https://sum-server.100xdevs.com/sum?a=" + a + "&b" + b)
         .then(function(response){
             response.text()
